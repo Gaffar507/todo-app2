@@ -1,0 +1,39 @@
+.questions{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin-left: -10rem;
+    margin-top: -4rem;
+    padding: 5rem;
+}
+.container{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    box-shadow: .1rem .1rem .3rem rgba(97, 97, 97, 0.72),
+    -.05rem -.05rem .3rem rgba(91, 91, 91, 0.721);
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+}
+.container-title{
+padding-bottom: .5rem;
+}
+.info{
+    width: 25rem;
+    height: 4rem;
+}
+.btn{
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    display: block;
+    margin-top: -.1rem;
+}
+.btn:hover{
+    cursor: pointer;
+}

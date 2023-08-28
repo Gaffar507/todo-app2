@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MealApp from'./components/Meal/MealApp';
+import QuestionsApp from './components/question-answer/QuestionApp';
 
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
         // <AppProvider>
         //     <CocktailsApp/>
         // </AppProvider>
-        <MealApp/>
+        <QuestionsApp/>
     );
 };
 
