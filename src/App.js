@@ -1,13 +1,12 @@
 import React from 'react';
 
-import SidebarApp from './components/sidebar/SidebarApp';
-import { AppProvider } from './components/sidebar/Context';
-
+import { AppProvider } from './components/stripe/Context';
+import StripeApp from './components/stripe/StripeApp';
 
 const App = () => {
     return (
         <AppProvider>
-            <SidebarApp/>
+            <StripeApp/>
         </AppProvider>
     );
 };
