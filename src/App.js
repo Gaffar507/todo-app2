@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { AppProvider } from './components/stripe/Context';
-import StripeApp from './components/stripe/StripeApp';
+import TodoApp from './components/Todo-App.js/TodoApp';
 
 const App = () => {
     return (
-        <AppProvider>
-            <StripeApp/>
-        </AppProvider>
+        // <AppProvider>
+        //     <StripeApp/>
+        // </AppProvider>
+        <TodoApp/>
     );
 };
 
