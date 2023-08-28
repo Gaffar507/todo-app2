@@ -1,6 +1,6 @@
 import React from 'react';
 
-import TourIndex from './components/Explore-world/Index';
+import MealApp from'./components/Meal/MealApp';
 
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
         // <AppProvider>
         //     <CocktailsApp/>
         // </AppProvider>
-        <TourIndex/>
+        <MealApp/>
     );
 };
 
