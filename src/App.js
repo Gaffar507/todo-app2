@@ -1,14 +1,14 @@
 import React from 'react';
 
-import ReviewApp from './components/reviews/ReviewApp';
+import SidebarApp from './components/sidebar/SidebarApp';
+import { AppProvider } from './components/sidebar/Context';
 
 
 const App = () => {
     return (
-        // <AppProvider>
-        //     <CocktailsApp/>
-        // </AppProvider>
-        <ReviewApp/>
+        <AppProvider>
+            <SidebarApp/>
+        </AppProvider>
     );
 };
 
