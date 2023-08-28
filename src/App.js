@@ -1,14 +1,14 @@
 import React from 'react';
 
-import CocktailsApp from './components/cocktails/CocktailsApp';
-import { AppProvider } from './components/cocktails/context';
+import TourIndex from './components/Explore-world/Index';
 
 
 const App = () => {
     return (
-        <AppProvider>
-            <CocktailsApp/>
-        </AppProvider>
+        // <AppProvider>
+        //     <CocktailsApp/>
+        // </AppProvider>
+        <TourIndex/>
     );
 };
 
