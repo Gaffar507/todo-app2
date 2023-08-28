@@ -1,13 +1,13 @@
 import React from 'react';
 
-import CardApp from './components/card-e-commerce/CardApp';
-import { AppProvider } from './components/card-e-commerce/Context';
+import CocktailsApp from './components/cocktails/CocktailsApp';
+import { AppProvider } from './components/cocktails/context';
 
 
 const App = () => {
     return (
         <AppProvider>
-            <CardApp/>
+            <CocktailsApp/>
         </AppProvider>
     );
 };
